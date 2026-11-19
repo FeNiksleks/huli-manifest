@@ -16,7 +16,7 @@
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/horde-sm.webp" as="image" media="(max-width: 699px)">
   <link rel="preload" href="assets/horde.webp" as="image" media="(min-width: 700px)">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=full-banner-1">
   <script src="script.js" defer></script>
 </head>
 <body>
@@ -29,17 +29,8 @@
   </header>
   <main id="top">
     <section class="hero" aria-labelledby="hero-title">
-      <div class="hero-world" aria-hidden="true"></div>
-      <div class="hero-content">
-        <p class="eyebrow">93-е королевство · HooliGuns</p>
-        <p class="hero-crest" aria-hidden="true">✧</p>
-        <h1 id="hero-title">ОРДА <span>HULI</span></h1>
-        <p class="subtitle">Предвестники Долгой ночи</p>
-        <div class="ice-rule" aria-hidden="true"></div>
-        <p class="hero-claim">Зима близко.<br><span>А вместе с ней придём и мы.</span></p>
-        <a class="read-link" href="#manifest">Читать послание</a>
-      </div>
-      <span class="scroll-cue" aria-hidden="true">Листайте вниз</span>
+      <h1 id="hero-title" class="visually-hidden">ОРДА HULI — Предвестники Долгой ночи</h1>
+      <picture class="hero-banner"><source media="(max-width: 699px)" srcset="assets/horde-sm.webp"><img src="assets/horde.webp" alt="Общий баннер Орды HULI: ледяной вождь и воины на фоне зимнего королевства" width="1672" height="941" fetchpriority="high"></picture>
     </section>
 
     <section class="manifest" id="manifest" aria-labelledby="manifest-title">
